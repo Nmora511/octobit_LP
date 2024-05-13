@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
+import logo from "../../public/assets/Logo_OCTOBIT_Logo_Branco_SIMBOLO.png"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="fixed w-[100%] h-24 opacity-1 bg-[var(--black)]">
-        
-        </header>
+        <Header/>
         {children}
       </body>
     </html>

@@ -14,3 +14,22 @@ body {
   background-color: var(--purple);
 }
 
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #a0a09f;
+	border-radius: 10px;
+  background-color: var(--black);
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: var(--black);
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(64, 61, 65)
+}
