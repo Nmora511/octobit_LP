@@ -30,10 +30,10 @@ export default function Header(){
           </div>
           <div className="">
             <a href="/" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Home</a>
-            <a href="octobit_LP/sobre" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Sobre</a>
-            <a href="octobit_LP/membros" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Membros</a>
-            <a href="octobit_LP/projetos" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Projetos</a>
-            <a href="octobit_LP/contato" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Contato</a>
+            <a href="https://nmora511.github.io/octobit_LP/sobre" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Sobre</a>
+            <a href="https://nmora511.github.io/octobit_LP/membros" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Membros</a>
+            <a href="https://nmora511.github.io/octobit_LP/projetos" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Projetos</a>
+            <a href="https://nmora511.github.io/octobit_LP/contato" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Contato</a>
           </div>
         </div>
     </header>
