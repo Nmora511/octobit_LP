@@ -1,18 +1,25 @@
 import Image from "next/image";
-import logo_simbolo_PRETO from "../../public/assets/Logo_OCTOBIT_Logo_Preto_SIMBOLO.png";
+import logo_simbolo_Branco from "../../public/assets/Logo_OCTOBIT_Logo_Branco_SIMBOLO.png";
+import coding from "../../public/assets/coding-background.jpg";
+import frame from "../../public/assets/frame.png";
+import Ondulation from "@/components/Ondulation";
 
 export default function Home() {
   return (
     <main>
-      
-      <Image src={logo_simbolo_PRETO} alt="logo" />
-      <p className="font-bold text-[2rem]">
-        A OctoBit Jr. é uma empresa júnior fundada e composta majoritariamente por alunos
-        do curso de Bacharelado em Ciência da Computação, da FFCLRP-USP. Ela
-        realiza serviços sem fins lucrativos, proporcionando aos membros experiências
-        profissionais desde que ingressam no curso, até a sua conclusão.
-      </p>
-
+      <div className="w-[100%] h-[100vh] justify-center items-center flex-col gap-10 flex">
+        <Image src={frame} alt="binary" className="absolute w-full z-[-1] opacity-[0.15]"/>
+        <Image className=" h-[25rem] w-auto" src={logo_simbolo_Branco} alt="logo" />
+        <p className="w-[70rem] font-bold text-[var(--white)] drop-shadow-xl text-center text-[4rem]">
+          Desenvolvendo o Amanhã, Hoje!
+        </p>
+      </div>
+      <Ondulation height="40rem" color="var(--white)">
+        <div></div>
+      </Ondulation>
+      <div className="w-full h-[40rem] overflow-hidden">
+        <Image className="blur-sm w-full" src={coding} alt="coding"/>
+      </div>
     </main>
   );
 }
