@@ -31,8 +31,8 @@ export default function Header(){
           <div className="">
             <a href="/" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Home</a>
             <a href="/sobre" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Sobre</a>
-            <a href="/projetos" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Projetos</a>
             <a href="/membros" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Membros</a>
+            <a href="/projetos" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Projetos</a>
             <a href="/contato" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Contato</a>
           </div>
         </div>
