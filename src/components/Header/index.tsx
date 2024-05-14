@@ -29,7 +29,7 @@ export default function Header(){
             <Image className="w-auto h-26" alt="logo" src={logo_horizontal_branco}/>
           </div>
           <div className="">
-            <a href="/" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Home</a>
+            <a href="https://nmora511.github.io/octobit_LP" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Home</a>
             <a href="https://nmora511.github.io/octobit_LP/sobre" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Sobre</a>
             <a href="https://nmora511.github.io/octobit_LP/membros" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Membros</a>
             <a href="https://nmora511.github.io/octobit_LP/projetos" className="text-[1.5rem] mx-4 cursor-pointer transition-all duration-[250ms] font-bold hover:text-[var(--purple)]">Projetos</a>
