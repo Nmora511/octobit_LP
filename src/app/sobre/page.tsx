@@ -41,12 +41,12 @@ export default function Sobre(){
             <Image src={frame} alt="binary" className="absolute w-full z-[-1] opacity-[0.15]"/>
             <Image className="h-[30rem] w-auto m-16" src={logo_branco} alt="logo"/>
             <span className="h-[30rem] w-[0.7rem] rounded-full bg-[var(--white)]"/>
-            <div className="w-[50%] m-16">
+            <motion.div initial={{opacity: 0, x: -75}} animate={{opacity: 1, x: 0}} className="w-[50%] m-16">
               <h2 className="text-[var(--white)] text-justify font-bold text-[2.6rem]">A OctoBit Jr. é uma empresa júnior fundada e composta majoritariamente por alunos
   do curso de Bacharelado em Ciência da Computação, da FFCLRP-USP. Ela
   realiza serviços sem fins lucrativos, proporcionando aos membros experiências
   profissionais desde que ingressam no curso, até a sua conclusão.</h2>
-            </div>
+            </motion.div>
         </div>
         <Ondulation height="100%" color="var(--black)" >
             <motion.div
